@@ -1,0 +1,11 @@
+#editor
+.vscode
+
+# python
+__pycache__
+venv
+
+#javascript
+node_modules
+package-lock.json
+yarn.lock
