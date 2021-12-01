@@ -45,20 +45,6 @@ class TestsMain(unittest.TestCase):
         # Assert
         self.assertEquals(increases, 7)
 
-    def test_number_of_times_a_depth_measurement_increases_convert_measurements_to_numbers(
-        self,
-    ):
-        # AAA
-        # Arrange
-        measurements = [
-            100,
-            20,
-        ]
-        # Act
-        increases = main.number_of_times_a_depth_measurement_increases(measurements)
-        # Assert
-        self.assertEquals(increases, 0)
-
     def test_the_number_of_times_the_sum_of_measurements_in_this_sliding_window_increases(
         self,
     ):
